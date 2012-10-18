@@ -8,11 +8,9 @@ Syntax-wise, it is as close as possible to jQuery, with the same function names 
 
 ## Installation
 
-Since this library (and cascadia) depends on the experimental branch, this package must be installed first. Both GoQuery and Cascadia expect to find the experimental library with the `"exp/html"` import statement. To install it at this location, please [follow this guide][wikiexp].
+This is a fork of https://github.com/PuerkitoBio/goquery, But embed exp/html and http://code.google.com/p/cascadia/ inside the repo, So you only need to do:
 
-Once this is done, install GoQuery:
-
-`go get github.com/PuerkitoBio/goquery`
+`go get github.com/sunfmin/goquery`
 
 To run unit tests, run this command in goquery's source directory (`$GOPATH/src/github.com/PuerkitoBio/goquery`):
 
@@ -99,10 +97,10 @@ The [BSD 3-Clause license][bsd], the same as the [Go language][golic]. Cascadia'
 [jquery]: http://jquery.com/
 [go]: http://golang.org/
 [exphtml]: http://code.google.com/p/go/source/browse#hg%2Fsrc%2Fpkg%2Fexp
-[cascadia]: http://code.google.com/p/cascadia/
+[cascadia]: http://github.com/sunfmin/goquery/cascadia/
 [wikiexp]: http://code.google.com/p/go-wiki/wiki/InstallingExp
 [bsd]: http://opensource.org/licenses/BSD-3-Clause
 [golic]: http://golang.org/LICENSE
-[caslic]: http://code.google.com/p/cascadia/source/browse/LICENSE
+[caslic]: http://github.com/sunfmin/goquery/cascadia/source/browse/LICENSE
 [doc]: http://go.pkgdoc.org/github.com/puerkitobio/goquery
 [index]: http://api.jquery.com/index/
