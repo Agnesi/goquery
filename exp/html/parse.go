@@ -6,7 +6,7 @@ package html
 
 import (
 	"errors"
-	a "exp/html/atom"
+	a "github.com/sunfmin/goquery/exp/html/atom"
 	"fmt"
 	"io"
 	"strings"

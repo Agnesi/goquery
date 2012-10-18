@@ -6,7 +6,7 @@
 package html_test
 
 import (
-	"exp/html"
+	"github.com/sunfmin/goquery/exp/html"
 	"fmt"
 	"log"
 	"strings"

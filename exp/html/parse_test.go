@@ -8,7 +8,7 @@ import (
 	"bufio"
 	"bytes"
 	"errors"
-	"exp/html/atom"
+	"github.com/sunfmin/goquery/exp/html/atom"
 	"fmt"
 	"io"
 	"io/ioutil"
