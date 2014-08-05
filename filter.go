@@ -1,8 +1,8 @@
 package goquery
 
 import (
-	"github.com/Agnesi/goquery/cascadia"
-	"github.com/Agnesi/goquery/exp/html"
+	"github.com/agnesis/goquery/cascadia"
+	"github.com/agnesis/goquery/exp/html"
 )
 
 // Filter() reduces the set of matched elements to those that match the selector string.

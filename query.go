@@ -1,8 +1,8 @@
 package goquery
 
 import (
-	"github.com/Agnesi/goquery/cascadia"
-	"github.com/Agnesi/goquery/exp/html"
+	"github.com/agnesis/goquery/cascadia"
+	"github.com/agnesis/goquery/exp/html"
 	"regexp"
 	"strings"
 )

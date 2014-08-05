@@ -7,7 +7,7 @@ package html
 import (
 	"errors"
 	"fmt"
-	a "github.com/Agnesi/goquery/exp/html/atom"
+	a "github.com/agnesis/goquery/exp/html/atom"
 	"io"
 	"strings"
 )

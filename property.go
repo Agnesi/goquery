@@ -2,7 +2,7 @@ package goquery
 
 import (
 	"bytes"
-	"github.com/Agnesi/goquery/exp/html"
+	"github.com/agnesis/goquery/exp/html"
 )
 
 // Attr() gets the specified attribute's value for the first element in the

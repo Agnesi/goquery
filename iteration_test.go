@@ -1,7 +1,7 @@
 package goquery
 
 import (
-	"github.com/Agnesi/goquery/exp/html"
+	"github.com/agnesis/goquery/exp/html"
 	"testing"
 )
 

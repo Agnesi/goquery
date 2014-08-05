@@ -6,7 +6,7 @@ package html
 
 import (
 	"bytes"
-	"github.com/Agnesi/goquery/exp/html/atom"
+	"github.com/agnesis/goquery/exp/html/atom"
 	"io"
 	"strconv"
 	"strings"

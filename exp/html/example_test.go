@@ -7,7 +7,7 @@ package html_test
 
 import (
 	"fmt"
-	"github.com/Agnesi/goquery/exp/html"
+	"github.com/agnesis/goquery/exp/html"
 	"log"
 	"strings"
 )

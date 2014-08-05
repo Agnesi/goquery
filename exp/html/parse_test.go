@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/Agnesi/goquery/exp/html/atom"
+	"github.com/agnesis/goquery/exp/html/atom"
 	"io"
 	"io/ioutil"
 	"os"
