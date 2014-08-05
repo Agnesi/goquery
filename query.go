@@ -1,8 +1,8 @@
 package goquery
 
 import (
-	"github.com/sunfmin/goquery/cascadia"
-	"github.com/sunfmin/goquery/exp/html"
+	"github.com/Agnesi/goquery/cascadia"
+	"github.com/Agnesi/goquery/exp/html"
 	"regexp"
 	"strings"
 )
@@ -16,7 +16,7 @@ func (this *Selection) Is(selector string) bool {
 		// The selector must be done on the document if it has positional criteria
 
 		// TODO : Not sure it is required, as Cascadia's selector checks within the parent of the
-		// node when there is such a positionaly selector... In jQuery, this is for the 
+		// node when there is such a positionaly selector... In jQuery, this is for the
 		// non-css selectors (Sizzle-implemented selectors, an extension of CSS)
 
 		/*if ok, e := regexp.MatchString(rxNeedsContext, selector); ok {

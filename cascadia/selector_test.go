@@ -1,7 +1,7 @@
 package cascadia
 
 import (
-	"github.com/sunfmin/goquery/exp/html"
+	"github.com/Agnesi/goquery/exp/html"
 	"strings"
 	"testing"
 )

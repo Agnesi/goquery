@@ -5,7 +5,7 @@
 package html
 
 import (
-	"github.com/sunfmin/goquery/exp/html/atom"
+	"github.com/Agnesi/goquery/exp/html/atom"
 )
 
 // A NodeType is the type of a Node.

@@ -6,7 +6,7 @@ package html
 
 import (
 	"bytes"
-	"github.com/sunfmin/goquery/exp/html/atom"
+	"github.com/Agnesi/goquery/exp/html/atom"
 	"io"
 	"strconv"
 	"strings"
@@ -320,7 +320,7 @@ loop:
 }
 
 // readRawEndTag attempts to read a tag like "</foo>", where "foo" is z.rawTag.
-// If it succeeds, it backs up the input position to reconsume the tag and 
+// If it succeeds, it backs up the input position to reconsume the tag and
 // returns true. Otherwise it returns false. The opening "</" has already been
 // consumed.
 func (z *Tokenizer) readRawEndTag() bool {

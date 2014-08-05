@@ -1,8 +1,8 @@
 package goquery
 
 import (
-	"github.com/sunfmin/goquery/exp/html"
 	"fmt"
+	"github.com/Agnesi/goquery/exp/html"
 	"os"
 	"testing"
 )

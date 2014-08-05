@@ -1,7 +1,7 @@
 package goquery
 
 import (
-	"github.com/sunfmin/goquery/exp/html"
+	"github.com/Agnesi/goquery/exp/html"
 )
 
 // First() reduces the set of matched elements to the first in the set.

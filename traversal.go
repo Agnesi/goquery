@@ -1,8 +1,8 @@
 package goquery
 
 import (
-	"github.com/sunfmin/goquery/cascadia"
-	"github.com/sunfmin/goquery/exp/html"
+	"github.com/Agnesi/goquery/cascadia"
+	"github.com/Agnesi/goquery/exp/html"
 )
 
 type siblingType int
@@ -81,7 +81,7 @@ func (this *Selection) ChildrenFiltered(selector string) *Selection {
 	return filterAndPush(this, getChildrenNodes(this.Nodes, siblingAll), selector)
 }
 
-// Parent() gets the parent of each element in the Selection. It returns a 
+// Parent() gets the parent of each element in the Selection. It returns a
 // new Selection object containing the matched elements.
 func (this *Selection) Parent() *Selection {
 	return pushStack(this, getParentNodes(this.Nodes))
@@ -347,7 +347,7 @@ func findWithSelector(nodes []*html.Node, selector string) []*html.Node {
 	})
 }
 
-// Internal implementation to get all parent nodes, stopping at the specified 
+// Internal implementation to get all parent nodes, stopping at the specified
 // node (or nil if no stop).
 func getParentsNodes(nodes []*html.Node, stopSelector string, stopNodes []*html.Node) []*html.Node {
 	return mapNodes(nodes, func(i int, n *html.Node) (result []*html.Node) {
@@ -375,7 +375,7 @@ func getSiblingNodes(nodes []*html.Node, st siblingType, untilSelector string, u
 
 	var f func(*html.Node) bool
 
-	// If the requested siblings are ...Until(), create the test function to 
+	// If the requested siblings are ...Until(), create the test function to
 	// determine if the until condition is reached (returns true if it is)
 	if st == siblingNextUntil || st == siblingPrevUntil {
 		f = func(n *html.Node) bool {

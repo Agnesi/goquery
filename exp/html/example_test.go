@@ -6,8 +6,8 @@
 package html_test
 
 import (
-	"github.com/sunfmin/goquery/exp/html"
 	"fmt"
+	"github.com/Agnesi/goquery/exp/html"
 	"log"
 	"strings"
 )
