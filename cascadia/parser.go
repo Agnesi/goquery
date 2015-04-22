@@ -4,7 +4,7 @@ package cascadia
 import (
 	"errors"
 	"fmt"
-	"github.com/agnesis/goquery/exp/html"
+	"github.com/lynx-seu/goquery/exp/html"
 	"regexp"
 	"strconv"
 	"strings"
