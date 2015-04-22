@@ -2,7 +2,7 @@ package goquery
 
 import (
 	"fmt"
-	"github.com/agnesis/goquery/exp/html"
+	"github.com/lynx-seu/goquery/exp/html"
 	"os"
 	"testing"
 )
