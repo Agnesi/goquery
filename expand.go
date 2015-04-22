@@ -1,7 +1,7 @@
 package goquery
 
 import (
-	"github.com/agnesis/goquery/exp/html"
+	"github.com/lynx-seu/goquery/exp/html"
 )
 
 // Add() adds the selector string's matching nodes to those in the current
