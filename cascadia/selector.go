@@ -3,7 +3,7 @@ package cascadia
 import (
 	"bytes"
 	"fmt"
-	"github.com/agnesis/goquery/exp/html"
+	"github.com/lynx-seu/goquery/exp/html"
 	"regexp"
 	"strings"
 )
