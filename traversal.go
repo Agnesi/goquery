@@ -1,8 +1,8 @@
 package goquery
 
 import (
-	"github.com/agnesis/goquery/cascadia"
-	"github.com/agnesis/goquery/exp/html"
+	"github.com/lynx-seu/goquery/cascadia"
+	"github.com/lynx-seu/goquery/exp/html"
 )
 
 type siblingType int
